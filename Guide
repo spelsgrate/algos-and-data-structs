@@ -1,0 +1,99 @@
+Here's a list of programs that will help you understand various data structures and
+algorithms. These projects start with basic concepts and gradually move to more complex
+ones.
+
+### **1. Arrays and Strings**
+- **Array Manipulation:** Implement a program to rotate an array, find the maximum
+subarray sum (Kadane’s algorithm), and perform binary search on a sorted array.
+- **String Manipulation:** Create a program to reverse a string, check for palindrome,
+implement string matching algorithms (like KMP or Rabin-Karp), and find the longest
+substring without repeating characters.
+### **2. Linked Lists**
+- **Singly Linked List:** Implement a singly linked list with basic operations (insertion,
+deletion, search, reverse a linked list).
+- **Doubly Linked List:** Extend the singly linked list to a doubly linked list with forward
+and backward traversal.
+- **Cycle Detection:** Implement Floyd’s Cycle Detection algorithm to detect a loop in a
+linked list.
+- **Merge Two Sorted Lists:** Write a program to merge two sorted linked lists into a
+single sorted linked list.
+### **3. Stacks and Queues**
+- **Stack Implementation:** Build a stack using arrays and linked lists. Implement
+common operations like push, pop, and peek.
+- **Queue Implementation:** Create a queue using arrays and linked lists. Implement
+operations like enqueue, dequeue, and peek.
+- **Min Stack:** Implement a stack that, in addition to push and pop, has a function
+`getMin()` that returns the minimum element in the stack.
+- **Circular Queue:** Implement a circular queue using an array.
+### **4. Trees and Graphs**
+- **Binary Tree Implementation:** Create a binary tree and implement operations like
+insertion, deletion, and traversal (in-order, pre-order, post-order).
+- **Binary Search Tree (BST):** Extend the binary tree to a BST and implement search,
+insertion, and deletion.
+- **Tree Traversals:** Implement breadth-first search (BFS) and depth-first search (DFS)
+for a binary tree.
+- **Graph Representation:** Implement graph representations (adjacency matrix,
+adjacency list) and basic operations (add edge, remove edge).
+- **Graph Traversals:** Implement BFS and DFS for a graph, and write a program to detect
+cycles in a graph.
+### **5. Heaps and Priority Queues**
+- **Heap Implementation:** Create a max heap and min heap using an array and
+implement heapify, insert, and delete operations.
+- **Priority Queue:** Implement a priority queue using a heap and demonstrate its usage
+in scheduling tasks based on priority.
+### **6. Sorting Algorithms**
+- **Bubble Sort:** Implement bubble sort and optimize it.
+- **Selection Sort:** Write a program to perform selection sort.
+- **Insertion Sort:** Implement insertion sort.
+- **Merge Sort:** Implement merge sort, including the merge function.
+- **Quick Sort:** Create a quick sort implementation with both recursive and iterative
+approaches.
+- **Heap Sort:** Implement heap sort using a max heap.
+### **7. Search Algorithms**
+- **Binary Search:** Implement binary search on a sorted array.
+- **Linear Search:** Write a program for linear search and compare its performance with
+binary search.
+- **Interpolation Search:** Implement interpolation search and test it on uniformly
+distributed arrays.
+### **8. Dynamic Programming**
+- **Fibonacci Sequence:** Implement the Fibonacci sequence using both recursive and
+dynamic programming approaches (memoization and tabulation).
+- **Knapsack Problem:** Write a program to solve the 0/1 knapsack problem using
+dynamic programming.
+- **Longest Common Subsequence:** Implement the LCS problem using dynamic
+programming.
+- **Coin Change Problem:** Create a solution for the coin change problem using dynamic
+programming.
+### **9. Backtracking**
+- **N-Queens Problem:** Write a program to solve the N-Queens problem using
+backtracking.
+- **Sudoku Solver:** Implement a Sudoku solver using backtracking.
+- **Maze Solver:** Create a program that finds a path through a maze using backtracking.
+### **10. Greedy Algorithms**
+- **Activity Selection:** Implement the activity selection problem using a greedy
+algorithm.
+- **Huffman Coding:** Write a program to generate Huffman codes for data compression.
+- **Kruskal’s Algorithm:** Implement Kruskal’s algorithm to find the minimum spanning
+tree of a graph.
+### **11. Miscellaneous**
+- **LRU Cache:** Implement a Least Recently Used (LRU) cache using a combination of a
+doubly linked list and a hash map.
+- **Trie (Prefix Tree):** Implement a trie data structure for efficient retrieval of keys in a
+dataset of strings.
+- **Union-Find:** Write a program to implement the union-find algorithm with path
+compression.
+### **12. Advanced Topics**
+- **Segment Trees:** Implement a segment tree to solve range queries on an array
+efficiently.
+- **Suffix Arrays:** Write a program to generate a suffix array for a string and use it for
+string matching.
+- **Fenwick Tree (Binary Indexed Tree):** Implement a Fenwick tree for efficient range
+sum queries.
+### **13. Real-World Applications**
+- **Text Autocomplete:** Use a trie to implement a text autocomplete feature.
+- **File System Simulation:** Simulate a basic file system using a tree data structure.
+- **URL Shortener:** Implement a URL shortener service using hash maps and other data
+structures.
+Working through these programs will provide you with a solid understanding of data
+structures and algorithms, helping you develop the problem-solving skills needed for
+software engineering roles.
