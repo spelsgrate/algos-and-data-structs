@@ -1,0 +1,54 @@
+import React, { useState } from 'react';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+
+const DataStructuresAlgorithmsVisualizer = () => {
+  const [selectedCategory, setSelectedCategory] = useState('arrays');
+
+  const categories = [
+    { id: 'arrays', name: 'Arrays and Strings' },
+    { id: 'linkedLists', name: 'Linked Lists' },
+    { id: 'stacksQueues', name: 'Stacks and Queues' },
+    { id: 'treesGraphs', name: 'Trees and Graphs' },
+    { id: 'heapsPriorityQueues', name: 'Heaps and Priority Queues' },
+    { id: 'sorting', name: 'Sorting Algorithms' },
+    { id: 'search', name: 'Search Algorithms' },
+    { id: 'dynamicProgramming', name: 'Dynamic Programming' },
+    { id: 'backtracking', name: 'Backtracking' },
+    { id: 'greedy', name: 'Greedy Algorithms' },
+    { id: 'miscellaneous', name: 'Miscellaneous' },
+    { id: 'advanced', name: 'Advanced Topics' },
+    { id: 'realWorld', name: 'Real-World Applications' },
+  ];
+
+  return (
+    <div className="container mx-auto p-4">
+      <h1 className="text-3xl font-bold mb-4">Data Structures and Algorithms Visualizer</h1>
+      <Tabs defaultValue={selectedCategory} onValueChange={setSelectedCategory}>
+        <TabsList className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
+          {categories.map((category) => (
+            <TabsTrigger key={category.id} value={category.id} className="text-sm">
+              {category.name}
+            </TabsTrigger>
+          ))}
+        </TabsList>
+        {categories.map((category) => (
+          <TabsContent key={category.id} value={category.id}>
+            <Card>
+              <CardHeader>
+                <CardTitle>{category.name}</CardTitle>
+                <CardDescription>Explore and visualize {category.name.toLowerCase()}.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                {/* Content for each category will be added here */}
+                <p>Placeholder for {category.name} content.</p>
+              </CardContent>
+            </Card>
+          </TabsContent>
+        ))}
+      </Tabs>
+    </div>
+  );
+};
+
+export default DataStructuresAlgorithmsVisualizer;
